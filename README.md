@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! 🎉
 This site is designed to showcase my skills, projects, and ways to get in touch with me. Built with a clean and modern HTML/CSS layout, it also supports dark mode and is fully responsive.
 
 ## 🌐 Live Demo
-**[Visit Website]([https://seninsiten.github.io/](https://uncndy.github.io/Modern-Portfolio/))**  
+**[Visit Website](https://uncndy.github.io/Modern-Portfolio/)**  
 
 ---
 
