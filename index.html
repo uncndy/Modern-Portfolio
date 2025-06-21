@@ -1,0 +1,113 @@
+<!-- 
+  Copyright (c) 2025 Sphinx
+  Licensed under the MIT License
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Personal portfolio website of Sphinx – a passionate software developer showcasing projects, skills, and contact info.">
+    <meta name="keywords" content="portfolio, web developer, software, sphinx, projects, github, contact">
+    <meta name="author" content="Sphinx">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook / Discord -->
+    <meta property="og:title" content="Sphinx | Personal Portfolio">
+    <meta property="og:description" content="Explore the work and skills of Sphinx, a developer passionate about technology and creativity.">
+    <meta property="og:image" content="https://seninsiten.com/pp.jpg">
+    <meta property="og:url" content="https://seninsiten.github.io/">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sphinx | Personal Portfolio">
+    <meta name="twitter:description" content="Explore the work and skills of Sphinx, a developer passionate about technology and creativity.">
+    <meta name="twitter:image" content="https://seninsiten.com/pp.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/723f19dbed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <title>4lper.com</title>
+    
+</head>
+<body>
+    <header>
+        <menu>
+            <ul>
+                <li><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about"><i class="fa-solid fa-ghost"></i></a></li>
+                <li><a href="#projects"><i class="fa-solid fa-folder-closed"></i></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope-open-text"></i></a></li>
+            </ul>
+            <div class="buttons">
+                <button class="black" id="darkModeToggle"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </menu>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="h-left">
+                <h1>Sphinx ! ?</h1>
+                <p>Passionate software developer and tech enthusiast, always eager to learn and grow.</p>
+                <div class="buttons">
+                    <button class="black" id="discordBtn"><i class="fa-brands fa-discord"></i>Discord</button>
+                    <button class="white" onclick="window.location.href='mailto:hi@4lper.com'">
+                        <i class="fa-regular fa-copy"></i> Mail
+                      </button>
+                </div>
+            </div>
+            <div class="h-right">
+                <img src="assets/img/pp.jpg" alt="">
+            </div>
+        </div>
+        <section id="about">
+            <div class="section-top">
+                <h2><i class="fa-solid fa-ghost"></i> About Me</h2>
+            </div>
+            <p>Hello! I'm Sphinx. I'm passionate about technology and software, always aiming to learn and improve myself. 
+                I enjoy working on web development, cybersecurity, and user-focused projects. 
+                I also value creativity and have an eye for detail.</p>
+             <p>In my free time, I watch anime, listen to music, and try to learn new things. 
+                My biggest goal in life is to create work that benefits both myself and others.</p>
+        </section>
+        <section id="projects">
+            <div class="section-top">
+                <h2><i class="fa-solid fa-folder-closed"></i> Projects</h2>
+                <button class="white">More Projects</button>
+            </div>
+            <div class="project">
+                <div class="p-left">
+                    <img src="assets/img/ph.png" alt="">
+                </div>
+                <div class="p-right">
+                    <h3>Personal Portfolio</h3>
+                    <p>A modern site to showcase GitHub projects with About, Projects, Contact, and social links.</p>
+                </div>
+                <button class="white"><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="section-top">
+                <h2><i class="fa-solid fa-envelope-open-text"></i> Contact Me</h2>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/xvgrbnzv" method="POST">
+                <div class="inputs">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="white"><i class="fa-regular fa-paper-plane"></i> Submit</button>
+            </form>
+        </section>
+        <section class="social">
+            <h3>Follow Me</h3>
+            <ul>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
