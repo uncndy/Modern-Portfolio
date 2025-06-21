@@ -12,7 +12,7 @@ This site is designed to showcase my skills, projects, and ways to get in touch 
 
 - Clean and modern UI
 - Responsive design
-- Dark mode toggle
+- UI/UX
 - Contact form with Formspree integration
 - Social media and Discord copy button
 - Projects section with image previews
@@ -27,12 +27,6 @@ This site is designed to showcase my skills, projects, and ways to get in touch 
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Formspree](https://formspree.io/) – for form submissions
-
----
-
-## 📸 Screenshots
-
-![Screenshot of Homepage](assets/img/pp.jpg)
 
 ---
 
