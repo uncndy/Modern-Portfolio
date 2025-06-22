@@ -13,13 +13,11 @@ document.getElementById("discordBtn").addEventListener("click", () => {
 const toggle = document.getElementById("darkModeToggle");
 const icon = toggle.querySelector("i");
 
-// Sayfa yüklenince localStorage'daki tema durumunu kontrol et
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark-mode");
   icon.className = "fa-solid fa-sun";
 }
 
-// Butona tıklanınca tema değiştir ve localStorage'ı güncelle
 toggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 
