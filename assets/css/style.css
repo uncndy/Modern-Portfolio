@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 body {
@@ -16,25 +16,43 @@ body.dark-mode {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-family: "Inter", system-ui;
     font-weight: 900;
-    font-size: 2.25rem;
+    font-size: 2rem;
     color: #373737;
+}
+h2 i {
+    font-size: 1.5rem;
 }
 h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-family: "Inter", system-ui;
     font-weight: 800;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #373737;
+}
+h2 i {
+    font-size: 1.25rem;
 }
 h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-family: "Inter", system-ui;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #373737;
 }
+h3 i {
+    font-size: 0.75rem;
+}
 p {
-    font-family: "Comic Relief", system-ui;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: #787878;
@@ -177,7 +195,7 @@ main {
     width: 580px;
     background-color: #ffffff;
     color: #000000;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 10px;
     padding: 4px;
     border-radius: 12px;
@@ -251,7 +269,7 @@ body.dark-mode main .hero .h-right img:hover {
     gap: 12px;
 }
 body.dark-mode #projects .project {
-    background-color: #2c2c2c;
+    background-color: #212121;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.1);
 }
 #projects .project .p-left {
@@ -307,9 +325,15 @@ body.dark-mode #contact .contact-form .inputs input,body.dark-mode #contact .con
     outline: none;
     border-color: #404040;
 }
+body.dark-mode #contact .contact-form .inputs input:hover, body.dark-mode #contact .contact-form textarea:hover {
+    border-color: #dcdcdc;
+}
 #contact .contact-form .inputs input:focus, textarea:focus {
     outline: none;
     border-color: #404040;
+}
+body.dark-mode #contact .contact-form .inputs input:focus, body.dark-mode #contact .contact-form textarea:focus {
+    border-color: #dcdcdc;
 }
 .social{
     align-items: center;
@@ -326,9 +350,9 @@ body.dark-mode #contact .contact-form .inputs input,body.dark-mode #contact .con
     align-items: center;
     justify-content: center;
     list-style: none;
-    width: 40px;
-    height: 40px;
-    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+    font-size: 1.25rem;
     border-radius: 50%;
     transition:  150ms ease-in-out;
     background-color: #fff;

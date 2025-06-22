@@ -13,14 +13,21 @@ document.getElementById("discordBtn").addEventListener("click", () => {
 const toggle = document.getElementById("darkModeToggle");
 const icon = toggle.querySelector("i");
 
-toggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+// Sayfa yüklenince localStorage'daki tema durumunu kontrol et
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark-mode");
+  icon.className = "fa-solid fa-sun";
+}
 
-    if (document.body.classList.contains("dark-mode")) {
+// Butona tıklanınca tema değiştir ve localStorage'ı güncelle
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
     icon.className = "fa-solid fa-sun";
-    toggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
-    } else {
+    localStorage.setItem("theme", "dark");
+  } else {
     icon.className = "fa-solid fa-moon";
-    toggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
-    }
+    localStorage.setItem("theme", "light");
+  }
 });
